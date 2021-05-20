@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Organization Name="ABC Inc.">
+  <Employee Title="CEO">Colin Morrison</Employee>
+  <Employee Title="CTO">Julian Kelly</Employee>
+  <Employee Title="CFO">Blake Ellison</Employee>
+  <Units>
+    <Unit Name="Product Management">
+      <Employee Title="Director">Phil Davidson</Employee>
+      <Units>
+        <Unit Name="Product Managers">
+          <Employee Title="Product Manger">Nicholas Butler</Employee>
+          <Employee Title="Product Manger">William Glover</Employee>
+        </Unit>
+        <Unit Name="Technical Writers">
+          <Employee Title="Technical Writer">Gavin Edmunds</Employee>
+        </Unit>
+      </Units>
+    </Unit>
+    <Unit Name="R&amp;D">
+      <Employee Title="Senior Manager">Cameron Ogden</Employee>
+      <Units>
+        <Unit Name="Development">
+          <Employee Title="Manager">Oliver Butler</Employee>
+          <Units>
+            <Unit Name="Platform Team">
+              <Employee Title="Team Lead">Thomas Payn</Employee>
+              <Employee Title="Front-end Developer">Joseph White</Employee>
+              <Employee Title="Back-end Developer">Connor Jones</Employee>
+            </Unit>
+            <Unit Name="Maintenance Team">
+              <Employee Title="Team Lead">Victor Buckland</Employee>
+              <Employee Title="Developer">Joe Piper</Employee>
+            </Unit>
+          </Units>
+        </Unit>
+        <Unit Name="QA">
+          <Employee Title="Manager">Tim Graham</Employee>
+          <Employee Title="QA Business Analyst">Dominic Lyman</Employee>
+          <Employee Title="QA Developer">Sean Simpson</Employee>
+        </Unit>
+      </Units>
+    </Unit>
+    <Unit Name="IT &amp; DevOps">
+      <Employee Title="Manager">Andrew Howard</Employee>
+      <Employee Title="System Administrator">Joe Jones</Employee>
+      <Employee Title="DevOps">Leonard Mathis</Employee>
+      <Employee Title="Security Analyst">Christian Stewart</Employee>
+    </Unit>
+  </Units>
+</Organization>
