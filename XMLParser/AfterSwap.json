@@ -1,1 +1,14 @@
-{"name":"ABC Inc.","employees":[{"title":"CEO","name":"Colin Morrison"},{"title":"CTO","name":"Julian Kelly"},{"title":"CFO","name":"Blake Ellison"}],"units":[{"name":"","employees":[],"units":[{"name":"Product Management","employees":[{"title":"Director","name":"Phil Davidson"}],"units":[{"name":"","employees":[{"title":"","name":"Gavin Edmunds"}],"units":[{"name":"Product Managers","employees":[{"title":"Product Manger","name":"Nicholas Butler"},{"title":"Product Manger","name":"William Glover"}],"units":[]}]}]},{"name":"R&D","employees":[{"title":"Senior Manager","name":"Cameron Ogden"}],"units":[{"name":"","employees":[],"units":[{"name":"Development","employees":[{"title":"Manager","name":"Oliver Butler"}],"units":[{"name":"","employees":[],"units":[{"name":"Platform Team","employees":[{"title":"Team Lead","name":"Victor Buckland"},{"title":"Developer","name":"Joe Piper"}],"units":[]},{"name":"Maintenance Team","employees":[{"title":"Team Lead","name":"Thomas Payn"},{"title":"Front-end Developer","name":"Joseph White"},{"title":"Back-end Developer","name":"Connor Jones"}],"units":[]}]}]},{"name":"QA","employees":[{"title":"Manager","name":"Tim Graham"},{"title":"QA Business Analyst","name":"Dominic Lyman"},{"title":"QA Developer","name":"Sean Simpson"}],"units":[]}]}]},{"name":"IT & DevOps","employees":[{"title":"Manager","name":"Andrew Howard"},{"title":"System Administrator","name":"Joe Jones"},{"title":"DevOps","name":"Leonard Mathis"},{"title":"Security Analyst","name":"Christian Stewart"}],"units":[]}]}]}
+{"name":"ABC Inc.","employees":[{"title":"CEO","name":"Colin Morrison"},{"title":"CTO","name":"Julian Kelly"},{"title":"CFO","name":"Blake Ellison"}],"units":[{"name":"","employees":[],"units":[{"name":"Product Management","employees":[{"title":"Director","name":"Phil Davidson"}],"units":[{"name":"","employees":[{"title":"","name":"Gavin Edmunds"}],"units":[{"name":"Product Managers","employees":[{"title":"Product Manger","name":"Nicholas Butler"},{"title":"Product Manger","name":"William Glover"}],"units":[]
+}]
+}]
+},{"name":"R&D","employees":[{"title":"Senior Manager","name":"Cameron Ogden"}],"units":[{"name":"","employees":[],"units":[{"name":"Development","employees":[{"title":"Manager","name":"Oliver Butler"}],"units":[{"name":"","employees":[],"units":[{"name":"Platform Team","employees":[{"title":"Team Lead","name":"Victor Buckland"},{"title":"Developer","name":"Joe Piper"}],"units":[]
+},{"name":"Maintenance Team","employees":[{"title":"Team Lead","name":"Thomas Payn"},{"title":"Front-end Developer","name":"Joseph White"},{"title":"Back-end Developer","name":"Connor Jones"}],"units":[]
+}]
+}]
+},{"name":"QA","employees":[{"title":"Manager","name":"Tim Graham"},{"title":"QA Business Analyst","name":"Dominic Lyman"},{"title":"QA Developer","name":"Sean Simpson"}],"units":[]
+}]
+}]
+},{"name":"IT & DevOps","employees":[{"title":"Manager","name":"Andrew Howard"},{"title":"System Administrator","name":"Joe Jones"},{"title":"DevOps","name":"Leonard Mathis"},{"title":"Security Analyst","name":"Christian Stewart"}],"units":[]
+}]
+}]
+}
