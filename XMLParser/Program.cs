@@ -67,7 +67,8 @@ namespace XMLParser
                     objectRepresentation.name = unitName;
                 }
                 // if child is not 1 another units await
-                else {
+                else
+                {
                     // generate a unit and assign to the list
                     objectRepresentation.name = unitName;
                     Unit unit = new Unit();
@@ -118,7 +119,7 @@ namespace XMLParser
             // traverse recursively through all sub-units to find team
             else
             {
-                for(int i=0; i < traverseObject.units.Count; i++)
+                for (int i = 0; i < traverseObject.units.Count; i++)
                 {
                     var unit = traverseObject.units[i];
                     Program.getTeams(ref platformTeam, ref maintenanceTeam, unit);
@@ -126,7 +127,8 @@ namespace XMLParser
             }
         }
 
-        static async void writeJsonToFile(Unit objectRepresentation, String fileName) {
+        static async void writeJsonToFile(Unit objectRepresentation, String fileName)
+        {
             String jsonRepresentation = objectRepresentation.toString();
             await File.WriteAllTextAsync(Program.path + fileName, jsonRepresentation);
         }
@@ -140,8 +142,9 @@ namespace XMLParser
         public String name;
 
         // String representation of employee for JSON
-        public String toString() {
-            return "{\"title\":\""+ this.title+ "\",\"name\":\"" + this.name + "\"}";
+        public String toString()
+        {
+            return "{\"title\":\"" + this.title + "\",\"name\":\"" + this.name + "\"}";
         }
     }
 
@@ -168,9 +171,10 @@ namespace XMLParser
             String employees = "\"employees\":[";
 
             // traverse through each employee and extract the string representation
-            for( int i=0; i < this.employees.Count; i++) {
+            for (int i = 0; i < this.employees.Count; i++)
+            {
                 employees += this.employees[i].toString();
-                if (i!= this.employees.Count -1)
+                if (i != this.employees.Count - 1)
                 {
                     employees += ",";
                 }
@@ -180,13 +184,13 @@ namespace XMLParser
 
             // open units array
             String units = "\"units\":[";
-            for (int i=0; i < this.units.Count; i++)
+            for (int i = 0; i < this.units.Count; i++)
             {
                 // call each unit's toString (current) function
                 units += this.units[i].toString();
                 if (i != this.units.Count - 1)
                 {
-                    units+= ",";
+                    units += ",";
                 }
             }
             // close array
